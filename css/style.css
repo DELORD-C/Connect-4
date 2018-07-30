@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(rgb(37, 37, 37), rgb(0, 0, 0));
+    height: 1018px;
+}
+
+.puissance-col {
+    margin: 2px;
+    display: grid;
+    transition-duration: 0.3s;
+}
+
+.puissance-col:hover {
+    background-color: rgba(69, 127, 179, 0.452);
+    filter: saturate(1.5);
+}
+
+.puissance-case {
+    white-space: nowrap;
+    width: 100px;
+    margin: -2px;
+}
+
+.puissance {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px 2px black;
+}
+
+.puissance-case img {
+    white-space: nowrap;
+    width: 100px;
+}
+
+.puissance-pawn {
+    margin-left: -100px;
+    position: absolute;
+    transition-duration: 0.5s;
+    z-index: -1000;
+    }
+
+.playing {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+    background-color: grey;
+    border-radius: 10px;
+    width: 20%;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 15px 2px black;
+}
+
+.scores {
+    background-color: grey;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    width: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 5px 5px 15px 2px black;
+}
+
+.scores h1 {
+    color: red;
+}
+
+.scores h2 {
+    color: blue;
+}
+
+.puissance-return {
+    width: 10%;
+    margin-left: 45%;
+    background-color: grey;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 15px 2px black;
+    color: black;
+}
